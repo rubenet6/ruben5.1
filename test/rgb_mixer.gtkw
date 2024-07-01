@@ -1,0 +1,31 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Mon Jul  1 20:23:53 2024
+[*]
+[dumpfile] "/home/zerotoasic/ruben5.1/test/tb.vcd"
+[dumpfile_mtime] "Mon Jul  1 19:38:29 2024"
+[dumpfile_size] 1239441
+[savefile] "/home/zerotoasic/ruben5.1/test/rgb_mixer.gtkw"
+[timestart] 0
+[size] 1476 600
+[pos] -1 -1
+*-34.758339 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb.
+[sst_width] 297
+[signals_width] 94
+[sst_expanded] 1
+[sst_vpaned_height] 158
+@28
+tb.clk
+tb.rst_n
+tb.enc0_a
+tb.enc0_b
+tb.enc1_a
+tb.enc1_b
+tb.enc2_a
+tb.enc2_b
+tb.pwm0_out
+@29
+tb.pwm1_out
+[pattern_trace] 1
+[pattern_trace] 0
