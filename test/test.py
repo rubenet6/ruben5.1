@@ -4,7 +4,7 @@ from cocotb.triggers import RisingEdge, FallingEdge, ClockCycles
 import random
 from encoder import Encoder
 
-Clocks_per_phase = 10
+clocks_per_phase = 10
 
 async def reset(dut):
     dut.enc0_a.value = 0
@@ -43,7 +43,7 @@ async def test_all(dut):
     assert dut.pwm0_out == 0
     assert dut.pwm1_out == 0
     assert dut.pwm2_out == 0
-"""
+
     # do 3 ramps for each encoder
     max_count = 255
     await run_encoder_test(encoder0, max_count)
@@ -59,5 +59,5 @@ async def test_all(dut):
         assert dut.pwm1_out == 1
         assert dut.pwm2_out == 1
         await ClockCycles(dut.clk, 1)
-"""
+
 

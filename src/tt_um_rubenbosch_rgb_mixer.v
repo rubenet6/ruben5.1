@@ -21,7 +21,7 @@ module tt_um_rubenbosch_rgb_mixer (
     assign uio_out = 8'b0000_0000;
     assign uo_out[7:3] = 5'b0_0000;
 
-    module rgb_mixer rgb_mixer (
+    rgb_mixer rgb_mixer (
         .clk(clk),
         .reset(rst),
         .enc0_a(ui_in[0]),
@@ -32,7 +32,8 @@ module tt_um_rubenbosch_rgb_mixer (
         .enc2_b(ui_in[5]),
         .pwm0_out(uo_out[0]),
         .pwm1_out(uo_out[1]),
-        .pwm2_out(uo_out[2]),
+        .pwm2_out(uo_out[2])
+
     );
 
 endmodule
