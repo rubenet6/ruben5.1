@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "RGB Mixer demo"      # Project title
+  title:        "RGB Mixer demo."      # Project title
   author:       "Ruben Bosch"      # Your name
   discord:      "RUBENET6"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Zero to ASIC demo project"      # One line description of what your project does
